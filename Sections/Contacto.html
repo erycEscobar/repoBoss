@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- / HEADER -->
+        <header class="header">
+            <img class="header__logo" src="../Assets/BOSS Logo.png" alt="Logo BOSS">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="../index.html"">Inicio</a></li>
+                <li class=" header__item"><a href="Productos.html">Productos</a></li>
+                    <li class="header__item"><a href="TiendaOnline.html">TiendaOnline</a></li>
+                    <li class="header__item"><a href="Comercios.html">Comercios</a></li>
+                    <li class="header__item"><a href="Historia.html">Historia</a></li>
+                    <li class="header__item"><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Info Personal</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="user_name" id="name" placeholder="Introduzca Su Nombre">
+                    <br>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="user_lastname" id="lastname" placeholder="Introduzca Su Apellido">
+                    <br>
+                    <label for="idnumber">DNI</label>
+                    <input type="number" name="user_idnumber" id="idnumber" placeholder="Introduzca Su DNI">
+                    <br>
+                    <label for="mail">Correo Electronico</label>
+                    <input type="email" name="user_mail" id="mail" placeholder="Introduzca Su Correo Electronico">
+                </fieldset>
+                <fieldset>
+                    <legend>Info Tributaria</legend>
+                    <label for="userafip">Tipo De Facturador</label>
+                    <select name="user_afip" id="userafip">
+                        <option value="Monotributo">Monotributo</option>
+                        <option value="Exento">Exento</option>
+                        <option value="Responsable Inscripto">Responsable Inscripto</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="BORRAR">
+                <input type="button" value="NO HACE NADA">
+            </form>
+        </main>
+        <!-- / FOOTER -->
+        <footer class="footer">
+            <div class="footer__list">
+                <ul class="footer__list">
+                    <li class="footer__item">Item 1</li>
+                    <li class="footer__item">Item 2</li>
+                    <li class="footer__item">Item 3</li>
+                    <li class="footer__item">Item 4</li>
+                </ul>
+            </div>
+            <div class="footer__logo">
+                <img class="footer__img" src="../Assets/BOSS Logo.png" alt="">
+            </div>
+            <div class="footer__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12637.035441590542!2d-91.19805525957821!3d37.643117817427616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d98ac8a1df18df%3A0x1660dc016bd5b6!2sBoss%2C%20Misuri%2065440%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1638207870946!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
